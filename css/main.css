@@ -1,0 +1,586 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+}
+a {
+    outline: none;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+html, body {
+	height: 100%;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #EF8DB4;
+	line-height: 22px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #7F6246;
+	font-style: italic;
+}
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5C5550;
+	line-height: 24px;
+	text-align: justify;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -275px;
+	background-image: url(../image/home/bg.jpg);
+	background-repeat: repeat-x;
+}
+.footer, .push {
+	height: 275px;
+}
+.container {
+	width: 991px;
+	margin : 0px auto;
+
+}
+.header {
+	background-image: url(../image/home/header.jpg);
+	height: 122px;
+	width: 991px;
+	margin : 0px auto;
+}
+.nav {
+	background-image: url(../image/home/nav_out.jpg);
+	height: 43px;
+	width: 995px;
+}
+#verbiage {
+	float: right;
+	width: 405px;
+	padding-top: 35px;
+	padding-right: 50px;
+}
+#slideshow {
+	height: 533px;
+	width: 482px;
+	background-image: url(../image/home/slide1.jpg);
+	margin-left: 20px;
+}
+.content {
+	background-image: url(../image/home/content_bg.jpg);
+	width: 991px;
+	height: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.content_cakes {
+	background-image: url(../image/home/content_bg.jpg);
+	width: 991px;
+	height: 1125px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.content_flowers {
+	background-image: url(../image/home/content_bg.jpg);
+	width: 991px;
+	height: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.content_decorations {
+	background-image: url(../image/home/content_bg.jpg);
+	width: 991px;
+	height: 765px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.content_catering {
+	background-image: url(../image/home/content_bg.jpg);
+	width: 991px;
+	height: 650px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.footer {
+	background-image: url(../image/home/footer_r.jpg);
+	background-repeat: repeat-x;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#logo {
+	background-image: url(../image/home/scr_logo.jpg);
+	height: 122px;
+	width: 468px;
+	margin : 0px auto;
+	display:block;
+	text-indent:-9999px;
+}
+.nav #nav_cakes a, .nav #nav_cakes a:link, .nav #nav_cakes a:visited {
+	background-image: url(../image/home/cakes.jpg);
+	height: 42px;
+	width: 98px;
+	padding: 0px 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin-left: 21px;
+}
+.nav #nav_cakes a:hover, #nav_cakes a:visited hover {
+	background-position: bottom; 
+	text-indent: 9999px;}
+	
+.nav #nav_flowers a, .nav #nav_flowers a:link, .nav #nav_flowers a:visited {
+	background-image: url(../image/home/flowers.jpg);
+	height: 42px;
+	width: 125px;
+	padding: 0px 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.nav #nav_flowers a:hover, #nav_flowers a:visited hover {
+	background-position: bottom; 
+	text-indent: 9999px;}
+	
+.nav #nav_decorations a, .nav #nav_decorations a:link, .nav #nav_decorations a:visited {
+	background-image: url(../image/home/decoration.jpg);
+	height: 42px;
+	width: 163px;
+	padding: 0px 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.nav #nav_decorations a:hover, #nav_decorations a:visited hover {
+	background-position: bottom; 
+	text-indent: 9999px;}	
+	
+.nav #nav_catering a, .nav #nav_catering a:link, .nav #nav_catering a:visited {
+	background-image: url(../image/home/catering.jpg);
+	height: 42px;
+	width: 132px;
+	padding: 0px 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin-left: 143px;
+}
+.nav #nav_catering a:hover, #nav_catering a:visited hover {
+	background-position: bottom; 
+	text-indent: 9999px;}
+	
+.nav #nav_about a, .nav #nav_about a:link, .nav #nav_about a:visited {
+	background-image: url(../image/home/about.jpg);
+	height: 42px;
+	width: 133px;
+	padding: 0px 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.nav #nav_about a:hover, #nav_about a:visited hover {
+	background-position: bottom; 
+	text-indent: 9999px;}			
+	
+.nav #nav_contact a, .nav #nav_contact a:link, .nav #nav_contact a:visited {
+	background-image: url(../image/home/contact.jpg);
+	height: 42px;
+	width: 158px;
+	padding: 0px 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.nav #nav_contact a:hover, #nav_contact a:visited hover {
+	background-position: bottom; 
+	text-indent: 9999px;}		
+.pink {
+	color: #F18DB4;
+}
+.spacer {
+	background-image: url(../image/home/spacer.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.center {
+	text-align: center;
+}
+.footer_wrapper {
+	background-image: url(../image/home/footer_bg.jpg);
+	height: 152px;
+	width: 991px;
+	margin : 0px auto;
+}
+.footer_wrapper_2 {
+	height: 123px;
+	width: 991px;
+	margin : 0px auto;
+}
+.footer4 {
+	float: right;
+	height: 123px;
+	width: 270px;
+	background-image: url(../image/home/copyright.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-right: 30px;
+}
+.footer3 {
+	float: right;
+	height: 123px;
+	width: 115px;
+}
+.footer2 {
+	float: right;
+	height: 123px;
+	width: 215px;
+}
+.footer1 {
+	height: 123px;
+	width: 230px;
+}
+.footer_text {
+	font-style: italic;
+	color: #816F5D;
+}
+.footer a, .footer a:link, .footer a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #9C8573;
+	line-height: 24px;
+	text-decoration:none	
+}
+.footer a:hover, a:visited hover {
+	color: #F18DB4;
+}
+
+#slideshow {
+    position:relative;
+    height:350px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+.pic_wrapper {
+	width: 500px;
+	margin-top: 30px;
+	float: right;
+}
+.pic_text {
+	width: 500px;
+}
+.pic_thumbs {
+	height: 260px;
+	width: 450px;
+	padding-left: 38px;
+}
+.pic_thumbs_2 {
+	height: 175px;
+	width: 450px;
+	padding-left: 38px;
+}
+#link_wedding {
+	height: 40px;
+	width: 500px;
+	}
+#link_wedding a{
+	height: 33px;
+	width: 500px;
+	background-image: url(../image/cakes/wedding_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#link_wedding a:hover {
+	background-position: center bottom;
+}
+#link_special {
+	height: 40px;
+	width: 500px;
+	}
+#link_special a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/cakes/special_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#link_special a:hover {
+	background-position: center bottom;
+}
+#link_groomsmen {
+	height: 40px;
+	width: 500px;
+	}
+#link_groomsmen a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/cakes/groomsmen_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#link_groomsmen a:hover {
+	background-position: center bottom;
+}
+#bridal_link {
+	height: 40px;
+	width: 500px;
+	}
+#bridal_link a{
+	height: 33px;
+	width: 500px;
+	background-image: url(../image/flowers/bridal_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#bridal_link a:hover {
+	background-position: center bottom;
+}
+#coursages_link {
+	height: 40px;
+	width: 500px;
+	}
+#coursages_link a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/flowers/coursages_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#coursages_link a:hover {
+	background-position: center bottom;
+}
+#flower_link {
+	height: 40px;
+	width: 500px;
+	}
+#flower_link a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/flowers/flower_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#flower_link a:hover {
+	background-position: center bottom;
+}
+#reception_link {
+	height: 40px;
+	width: 500px;
+	}
+#reception_link a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/decoration/reception_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#reception_link a:hover {
+	background-position: center bottom;
+}
+#ceremony_link {
+	height: 40px;
+	width: 500px;
+	}
+#ceremony_link a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/decoration/ceremony_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#ceremony_link a:hover {
+	background-position: center bottom;
+}
+#catering_link {
+	height: 40px;
+	width: 500px;
+	}
+#catering_link a{
+	height: 32px;
+	width: 500px;
+	background-image: url(../image/catering/catering_link.gif);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	background-position: center top;
+}
+#catering_link a:hover {
+	background-position: center bottom;
+}
+
+.thumbs {
+	padding: 5px;
+	float: left;
+}
+.verbiage_2 {
+	width: 410px;
+	padding-left: 50px;
+	padding-top: 30px;
+	float: left;
+}
+.verbiage_about {
+	width: 891px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-right: 50px;
+}
+.verbiage_about_inside {
+	width: 890px;
+}
+.cakes_header {
+	background-image: url(../image/cakes/cakes_header.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 400px;
+	text-indent:-9999px;
+}
+.flowers_header {
+	background-image: url(../image/flowers/flowers_header.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 400px;
+	text-indent:-9999px;
+}
+.decoration_header {
+	background-image: url(../image/decoration/decorations_header.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 400px;
+	text-indent:-9999px;
+}
+.catering_header {
+	background-image: url(../image/catering/catering_header.jpg);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 400px;
+	text-indent:-9999px;
+}
+.about_header {
+	background-image: url(../image/other/about_header.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 250px;
+	text-indent:-9999px;
+}
+.contact_header {
+	background-image: url(../image/other/contact_header.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 400px;
+	text-indent:-9999px;
+}
+.numbers {
+	font-family: "Times New Roman", Times, serif;
+	color: #F18DB4;
+}
+.pic_about {
+	float: left;
+	padding: 4px;
+	margin-right: 18px;
+	margin-left: 35px;
+	border: 1px solid #D8D4CC;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.pic_contact {
+	padding-left: 35px;
+}
+.wrapper .container .content .verbiage_2 form input {
+	color: #774A20;
+}
+.verbiage_2 ul li p a, .verbiage_2 ul li p a:link, .verbiage_2 ul li p a:visited {
+	color: #5C5550;
+	text-decoration: none;
+}
+.verbiage_2 ul li p a:hover, .verbiage_2 ul li p a:visited hover {
+	color: #F28DB4;
+	text-decoration: none;
+}.wrapper .container .content_catering .verbiage_2 form input {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #998675;
+	border: 1px solid #9C8573;
+	height: 20px;
+}
+.testimonial {
+	color: #F18DB4;
+	padding-bottom: 10px;
+}
+.footer_pic {
+	margin-bottom: 5px;
+}
+.testimonial2 {
+	font-style: italic;
+	color: #ADA8A0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	line-height: 24px;
+}

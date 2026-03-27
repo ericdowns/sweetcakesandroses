@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+a {
+    outline: none;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	font-weight: normal;
+	color: #7F6246;
+	text-align: center;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #7F6246;
+	text-align: center;
+	font-style: italic;
+}
+#background {
+	background-image: url(../image/home_index/splash_bg.jpg);
+	height: 800px;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-position: top center;
+	margin: 0;
+	padding: 0;
+}
+#header {
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#scrwrapper {
+	height: 105px;
+	width: 435px;
+	margin-left: 10px;
+	padding-top: 7px;
+}
+#scr_logo {
+	background-image: url(../image/home_index/scr_logo.jpg);
+	display:block;
+	height: 105px;
+	width: 433px;
+	text-indent:-9999px;
+	float: right;
+}
+#ahwrapper {
+	height: 97px;
+	width: 363px;
+	margin-top: 15px;
+	margin-right: 50px;
+	float: right;
+}
+#ah_logo {
+	background-image: url(../image/home_index/ah_logo.jpg);
+	display:block;
+	height: 97px;
+	width: 363px;
+	text-indent:-9999px;
+	
+}
+#content {
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#sc_info {
+	width: 470px;
+	padding-top: 60px;
+	margin-left: 5px;
+}
+.text {
+	width: 470px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.link {
+	width: 470px;
+	height: 36px;
+}
+.link a {
+	width: 419px;
+	height: 36px;
+	background-image: url(../image/home_index/enter.jpg);
+	background-repeat: no-repeat;
+	display:block;
+	text-indent:-9999px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.link a:hover {
+	background-position: 0 -36px;
+}
+#ah_info {
+	width: 470px;
+	padding-top: 62px;
+	float: right;
+}
+.doyle {
+	background-image: url(../image/home_index/doyle.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 470px;
+	height: 25px;
+	margin-top: 10px;
+}
